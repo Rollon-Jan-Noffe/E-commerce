@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="row">
+
+               
+                <p class="display-3 mt- py-auto ml-5">Shipping</p>
+
+                <!--RIGHT SIDE: INPUT TYPES-->
+        <div class="col-md-6 no-gutters mt-5 ml-5" >
+            <div class="rightside d-flex justify-content-center align-items-center">
+             
+                <form action="/" method="POST"  >
+                    <!--Full name-->
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input class="form-control" type="text"  id="name" name="name" placeholder="Enter full name" style="width: 100%;">
+                    </div>
+
+                    <!--Shipping address-->
+                    <div class="form-group">
+                        <label for="shipping">Shipping Address</label>
+                        <input class="form-control" type="text"  id="shipping" name="shipping" placeholder="Enter shipping address" 
+                        style="width: 100%;"/>
+                    </div>
+
+                    <!--Contact No.-->
+                    <div class="form-group">
+                        <label for="contactno">Contact No.</label>
+                        <input class="form-control" type="number"  id="contactno" name="contactno" placeholder="Enter contact no" 
+                        style="width: 100%;"/>
+                    </div>
+
+                    <!--MOP-->
+                    <p><b>Mode of Payment</b></p>
+
+                    <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">Gcash
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">BDO
+                        </label>
+                      </div>
+
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="optradio">BPI
+                        </label>
+                      </div>
+
+
+                      <form action="/" method="GET">
+                    <div class="form-group">
+                    <!--BUTTON-->
+                   <center><button type="submit" class="btn btn-primary btn-lg">Place Order</button></center> 
+                    </div>
+                    </form>
+                    
+                </form>
+            
+            </div>
+        </div>
+    </div>
+    </div>
+
+</div>
